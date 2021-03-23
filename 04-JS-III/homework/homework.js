@@ -114,7 +114,6 @@ function multiplicarArgumentos() {
   else {
     for (_ in arguments) {
       nuevoint = nuevoint * arguments[_];
-      console.log(nuevoint)
     }
     return nuevoint;
   }
@@ -182,7 +181,6 @@ function mesesDelAño(array) {
   for (month in array){
     if (array[month] == "Enero") {
       newArray.push("Enero");
-      console.log(newArray)
     }
     else if (array[month] == "Marzo") {
       newArray.push("Marzo");
