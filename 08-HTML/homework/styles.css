@@ -2,26 +2,37 @@ li{
     vertical-align: auto;
     list-style-type: none;
 }
-
+h3,h4, span, a {
+    color: white;
+}
 h1 {
     color:chocolate;
 }
 
 img {
-    width: 400px;
+    width: 335px;
 }
-
+div {
+    text-align: center;
+}
 #thirdDiv {
-    width: 600px;
-    height: 500px;
-    background-color: darkgoldenrod;
-    padding: 50px;
+    align-items: center;
+    background-color: chocolate;
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
     border-style: dotted dashed;
-    border-color: beige;
+    border-color: aliceblue;
     border-width: 7px;
 }
 
 #spanId {
     font-size: 18px;
-    margin: 50px;
+}
+
+div {
+    align-items: center;
+    justify-content: center;
 }
