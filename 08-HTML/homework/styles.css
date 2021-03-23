@@ -1,0 +1,27 @@
+li{
+    vertical-align: auto;
+    list-style-type: none;
+}
+
+h1 {
+    color:chocolate;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    width: 600px;
+    height: 500px;
+    background-color: darkgoldenrod;
+    padding: 50px;
+    border-style: dotted dashed;
+    border-color: beige;
+    border-width: 7px;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
